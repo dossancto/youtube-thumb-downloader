@@ -1,3 +1,3 @@
-module console/getYoutubeThumb
+module console/ytThumb
 
 go 1.19

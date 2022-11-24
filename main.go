@@ -15,6 +15,13 @@ func main() {
 
 	ARGS := os.Args[1:]
 
+  if len(ARGS) == 0 {
+    fmt.Println("Usage: \nytThumb '{video url}' '[name of output file]'")
+    return
+  }
+
+  fmt.Println(len(ARGS))
+
 	var fileName string
 
 	if len(ARGS) >= 2 {
